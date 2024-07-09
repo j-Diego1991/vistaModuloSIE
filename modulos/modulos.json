@@ -1,0 +1,58 @@
+{
+  "modulos": [
+    {
+      "modulo": "Bancos",
+      "submenús": [
+        {
+          "submenú": "1 Movimientos",
+          "subsubmenús": "",
+          "programas": [
+            {"clave": "ban000001a.p", "nombre": "1.1 Cuentas Bancarias-Movimientos"},
+            {"clave": "ban000002a.p", "nombre": "1.2 Digitalización Estados Cuenta"}
+          ]
+        },
+        {
+          "submenú": "2 Reportes",
+          "subsubmenús": "",
+          "programas": [
+            {"clave": "ban000001r.p", "nombre": "2.1 Cuentas Bancarias-Movimientos"},
+            {"clave": "ban000002r.p", "nombre": "2.2 Cuentas Bancarias-Estado Cuenta"}
+          ]
+        },
+        {
+          "submenú": "3 Generales",
+          "subsubmenús": "",
+          "programas": [
+            {"clave": "ban000001m.p", "nombre": "3.1 Bancos"},
+            {"clave": "ban000002rm.p", "nombre": "3.2 Beneficiarios"},
+            {"clave": "ban000003rm.p", "nombre": "3.3 Cuentas Bancarias"}
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "Configuración",
+      "submenús": [
+        {
+          "submenú": "1 SAT Catálogos",
+          "subsubmenús": [
+            {
+              "submenú": "1.1 SAT Nómina",
+              "subsubmenús": "",
+              "programas": [
+                {"clave": "sat000001m.p", "nombre": "1.1.1 Entidades Federativas"},
+                {"clave": "sat000002m.p", "nombre": "1.1.2 Nóminas percepciones"},
+                {"clave": "sat000003m.p", "nombre": "1.1.3 Nóminas deducciones"}
+              ]
+            }
+          ],
+          "programas": [
+            {"clave": "sat000011a.p", "nombre": "1.2 Formas de pago"},
+            {"clave": "sat000012a.p", "nombre": "1.3 Jornadas de Trabajo"},
+            {"clave": "sat000001a.p", "nombre": "1.4 Periodicidad de pagos"}
+          ]
+        }
+      ]
+    }
+  ]
+}
